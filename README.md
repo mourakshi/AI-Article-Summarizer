@@ -4,6 +4,8 @@ A production-grade Chrome extension that leverages Google Gemini's AI to deliver
 
 
 https://github.com/user-attachments/assets/b6979509-28bd-4584-8169-7305f0dc185a
+![image](https://github.com/user-attachments/assets/7c889252-02ad-487e-992d-261c137a043b)
+
 
 
 ## 🏆 Key Features
@@ -85,35 +87,71 @@ cd ai-article-summarizer
 ## System Architecture
 ![deepseek_mermaid_20250708_02811d](https://github.com/user-attachments/assets/6b02c7c3-0967-4104-a564-769fbe333d81)
 
-##🤝Contribution Guidelines
-We follow standard GitHub workflow:
+## 🤝 Contribution Guidelines
 
-1. Fork the repository
+We follow the standard GitHub collaboration workflow:
 
-2. Create feature branch (git checkout -b feat/new-feature)
+### Development Process
+1. **Fork** the repository  
+   *(Click "Fork" button at top-right of repository page)*
+2. **Create** feature branch:  
+   ```bash
+   git checkout -b feat/your-feature-name
 
-3. Commit changes (git commit -am 'Add new feature')
+3. Commit changes with descriptive messages:
+   ```bash
+   git commit -am "feat: Add dark mode support"
+4.Push to your branch: 
+  ```
+git push origin feat/your-feature-name
+```
+5. Open a Pull Request from your fork to the main repository
 
-4. Push to branch (git push origin feat/new-feature)
+##Quality Standards
 
-5. Open Pull Request
+-Commit Messages:
+Follow Conventional Commits format:
+type(scope): description
+Example: fix(summarizer): handle empty API responses
 
-Please ensure:
+-Documentation:
 
--Clear commit messages
+Update README.md for new features
 
--Updated documentation
+Add code comments for complex logic
 
--Passing basic functionality tests
+Document edge cases
 
-##Compliance & Security
--All API keys stored using Chrome's encrypted storage
+-Testing:
+ Verify functionality with:
 
--No data collection or tracking
+ News articles
 
--Regular dependency audits
+ Blog posts
+
+ Technical documentation
+
+
+##🔒 Compliance & Security
+
+###Data Protection
+
+-API Keys: Stored using Chrome's encrypted chrome.storage.sync
+
+-Privacy: No user data collection or tracking
+
+-Dependencies: Monthly audits via npm audit
+
+###Security Practices
+
+-All network requests use HTTPS
+
+-Content scripts run in isolated worlds
+
+-Regular penetration testing
 
 ##⚖️License
+
 MIT Licensed - See LICENSE for full details.
 
 
