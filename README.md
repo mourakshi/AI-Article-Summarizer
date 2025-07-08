@@ -57,26 +57,32 @@ cd ai-article-summarizer
 4. Configure API key in extension options
 
    
-##🚀 Usage Documentation
-**Basic Flow**
-1.Navigate to target article
+## Usage Documentation
 
-2.Click extension icon in toolbar
+### Basic Flow
+1. **Navigate** to target article
+2. **Click** extension icon in toolbar  
+   *(Icon appears when on article pages)*
+3. **Select** preferred format:
+   - Bullet points (•)
+   - Paragraph (¶)
+4. **Click** "Summarize" button
+5. **Use** the output:
+   - Click "Copy" button for clipboard
+   - Read directly in the overlay
 
-3.Select preferred format
+### Advanced Features
+- **Keyboard Shortcuts**  
+  Configure custom hotkeys in extension options
+- **Domain-Specific Rules**  
+  Set different summarization behaviors for frequent sites
+- **Output Customization**  
+  Adjust summary length via options:
+  - Concise (3-5 bullet points)
+  - Detailed (full paragraph)
+  - Custom character limit
 
-4.Click "Summarize"
-
-5.Use "Copy" button or read directly
-
-**Advanced Features**
--Keyboard shortcut configuration
-
--Domain-specific summarization rules
-
--Output length customization (via options)
-
-##🏗️ System Architecture
+## System Architecture
 ![deepseek_mermaid_20250708_02811d](https://github.com/user-attachments/assets/6b02c7c3-0967-4104-a564-769fbe333d81)
 
 ##🤝Contribution Guidelines
