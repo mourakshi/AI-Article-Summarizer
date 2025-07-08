@@ -3,8 +3,11 @@
 A production-grade Chrome extension that leverages Google Gemini's AI to deliver concise, accurate article summaries with configurable output formats.
 
 
-https://github.com/user-attachments/assets/b6979509-28bd-4584-8169-7305f0dc185a
-![image](https://github.com/user-attachments/assets/7c889252-02ad-487e-992d-261c137a043b)
+
+
+https://github.com/user-attachments/assets/0aaddd88-e34d-4132-882a-ba06b598cc46
+
+
 
 
 
