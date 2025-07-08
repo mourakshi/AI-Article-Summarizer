@@ -110,48 +110,42 @@ git push origin feat/your-feature-name
 ```
 5. Open a Pull Request from your fork to the main repository
 
-##Quality Standards
+## Quality Standards
 
--Commit Messages:
-Follow Conventional Commits format:
-type(scope): description
-Example: fix(summarizer): handle empty API responses
+### Commit Messages
+Follow [Conventional Commits](https://www.conventionalcommits.org/) format:  
+`type(scope): description`  
 
--Documentation:
+**Example**:  
+`fix(summarizer): handle empty API responses`
 
-Update README.md for new features
+### Documentation
+- Update README.md for new features  
+- Add code comments for complex logic  
+- Document edge cases in `EDGE_CASES.md`
 
-Add code comments for complex logic
+### Testing
+Verify functionality with:  
+- News articles (e.g., BBC, NY Times)  
+- Blog posts (Medium, WordPress)  
+- Technical documentation (MDN, GitHub Docs)
 
-Document edge cases
+## Compliance & Security
 
--Testing:
- Verify functionality with:
+### Data Protection
+- **API Keys**:  
+  Stored using Chrome's encrypted `chrome.storage.sync`  
+  (AES-256 encryption)
+  
+- **Privacy**:  
+  - No user data collection  
+  - No tracking mechanisms  
+  - All processing occurs locally
 
- News articles
-
- Blog posts
-
- Technical documentation
-
-
-##🔒 Compliance & Security
-
-###Data Protection
-
--API Keys: Stored using Chrome's encrypted chrome.storage.sync
-
--Privacy: No user data collection or tracking
-
--Dependencies: Monthly audits via npm audit
-
-###Security Practices
-
--All network requests use HTTPS
-
--Content scripts run in isolated worlds
-
--Regular penetration testing
+### Security Practices
+- All network requests use HTTPS + HSTS  
+- Content scripts run in isolated worlds  
+- Regular dependency audits (`npm audit`)
 
 ##⚖️License
 
