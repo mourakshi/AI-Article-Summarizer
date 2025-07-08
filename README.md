@@ -1,23 +1,29 @@
+# AI Article Summarizer - Chrome Extension
+
 A production-grade Chrome extension that leverages Google Gemini's AI to deliver concise, accurate article summaries with configurable output formats.
 
-## Key Features
 
-### Core Functionality
-- **Intelligent Summarization** - Utilizes Google Gemini's advanced NLP to extract key information
-- **Dual Output Formats**:
-  - Bullet-point executive summary
-  - Coherent paragraph summary
-- **Context-Aware Processing** - Maintains article context and preserves critical details
+https://github.com/user-attachments/assets/b6979509-28bd-4584-8169-7305f0dc185a
 
-### User Experience
-- **Non-Disruptive Integration** - Summary overlay appears inline with page content
-- **One-Click Operations** - Generate and copy summaries without leaving the page
-- **Responsive Design** - Adapts to all common article layouts
 
-### Technical Implementation
-- **Secure API Handling** - Encrypted local storage for API keys
-- **Optimized Performance** - Caching mechanism for frequent domains
-- **Error Resilience** - Graceful degradation when API limits are reached
+## 🏆 Key Features
+
+### 🤖 AI Capabilities
+- **📝 Intelligent Summarization** - Google Gemini's NLP extracts key points
+- **🔄 Dual Output Formats**:
+  - • Bullet-point executive summary
+  - ¶ Coherent paragraph version
+- **🎯 Context-Aware** - Maintains article meaning and nuance
+
+### ✨ User Experience
+- **🔍 Seamless Integration** - Inline summary overlay
+- **📋 One-Click Copy** - Instant clipboard access
+- **🌐 Universal Compatibility** - Works on most article formats
+
+### ⚙️ Technical
+- **🔐 Secure Storage** - Encrypted API key handling
+- **⚡ Performance Optimized** - Smart content caching
+- **🛡️ Error Resilient** - Graceful API failure handling
 
 ## Technical Specifications
 
@@ -29,7 +35,7 @@ A production-grade Chrome extension that leverages Google Gemini's AI to deliver
 | Data Storage        | chrome.storage.sync     |
 | Build Process       | Manual (no bundler)     |
 
-## Installation Guide
+## 🛠️ Installation Guide
 
 ### Requirements
 - Google Chrome (v89+ recommended)
@@ -51,21 +57,57 @@ cd ai-article-summarizer
 4. Configure API key in extension options
 
    
-##Usage Documentation
-###Basic Flow
-Navigate to target article
+##🚀 Usage Documentation
+**Basic Flow**
+1.Navigate to target article
 
-Click extension icon in toolbar
+2.Click extension icon in toolbar
 
-Select preferred format
+3.Select preferred format
 
-Click "Summarize"
+4.Click "Summarize"
 
-Use "Copy" button or read directly
+5.Use "Copy" button or read directly
 
-Advanced Features
-Keyboard shortcut configuration
+**Advanced Features**
+-Keyboard shortcut configuration
 
-Domain-specific summarization rules
+-Domain-specific summarization rules
 
-Output length customization (via options)
+-Output length customization (via options)
+
+##🏗️ System Architecture
+![deepseek_mermaid_20250708_02811d](https://github.com/user-attachments/assets/6b02c7c3-0967-4104-a564-769fbe333d81)
+
+##🤝Contribution Guidelines
+We follow standard GitHub workflow:
+
+1. Fork the repository
+
+2. Create feature branch (git checkout -b feat/new-feature)
+
+3. Commit changes (git commit -am 'Add new feature')
+
+4. Push to branch (git push origin feat/new-feature)
+
+5. Open Pull Request
+
+Please ensure:
+
+-Clear commit messages
+
+-Updated documentation
+
+-Passing basic functionality tests
+
+##Compliance & Security
+-All API keys stored using Chrome's encrypted storage
+
+-No data collection or tracking
+
+-Regular dependency audits
+
+##⚖️License
+MIT Licensed - See LICENSE for full details.
+
+
